@@ -55,7 +55,7 @@ class Income extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Padding(
-                      padding: EdgeInsets.only(top: 4), 
+                      padding: EdgeInsets.only(top: 4),
                       child: Icon(
                         Icons.attach_money,
                         color: Colors.white,

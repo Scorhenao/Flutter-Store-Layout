@@ -26,7 +26,7 @@ class Spending extends StatelessWidget {
                   ),
                   child: Icon(
                     Icons.arrow_downward,
-                    color: Color(0xFFF93839), 
+                    color: Color(0xFFF93839),
                     size: 20,
                   ),
                 ),
@@ -72,7 +72,7 @@ class Spending extends StatelessWidget {
                         ),
                         children: [
                           TextSpan(
-                            text: "90.000,", 
+                            text: "90.000,",
                             style: TextStyle(fontSize: 20),
                           ),
                           TextSpan(

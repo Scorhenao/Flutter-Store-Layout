@@ -9,9 +9,7 @@ class Menu extends StatelessWidget implements PreferredSizeWidget {
       elevation: 0,
       toolbarHeight: 90,
       shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(
-          bottom: Radius.circular(12),
-        ),
+        borderRadius: BorderRadius.vertical(bottom: Radius.circular(12)),
       ),
       backgroundColor: Colors.white,
       // image
