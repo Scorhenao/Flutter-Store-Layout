@@ -8,7 +8,13 @@ class CategoriesAndTransactions extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: 80,
-      color: Colors.white,
+      decoration: const BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.only(
+          bottomLeft: Radius.circular(25),
+          bottomRight: Radius.circular(25),
+        ),
+      ),
       child: Column(
         children: [
           SizedBox(height: 20),
