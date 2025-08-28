@@ -62,7 +62,7 @@ class ProductCard extends StatelessWidget {
     final decimalPart = parts.length > 1 ? parts[1] : "00";
 
     // icon if percentage is positive or negative
-    final bool isPositive = percentageColor == const Color(0xFF2ba059);
+    final bool isPositive = percentageColor == const Color(0xFFd3ecdd);
     final IconData arrowIcon = isPositive
         ? Icons.keyboard_arrow_up
         : Icons.keyboard_arrow_down;
